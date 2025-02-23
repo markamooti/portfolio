@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
@@ -54,13 +55,13 @@ export default function Home() {
             </div>
           </div>
           <Separator className="border-dashed border-white/20" />
-          <div className="text-center">
-            <Link
-              href="https://www.linkedin.com/in/markthenorman/"
-              className="text-green-400 hover:text-red-400 hover:underline text-sm"
-            >
-              LinkedIn
-            </Link>
+          <div className="flex justify-center space-x-4">
+            <Button asChild variant="outline" className="text-white border-white hover:bg-white hover:text-black">
+              <Link href="/projects">View Projects</Link>
+            </Button>
+            <Button asChild variant="outline" className="text-white border-white hover:bg-white hover:text-black">
+              <Link href="https://www.linkedin.com/in/markthenorman/">LinkedIn</Link>
+            </Button>
           </div>
         </CardContent>
       </Card>
