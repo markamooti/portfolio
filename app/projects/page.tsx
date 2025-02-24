@@ -28,7 +28,7 @@ const projects = [
   {
     title: "SUU-tellite - CanSat Competition",
     description:
-      "National Finalists: A simulated satellite using Arduino, radio transmission, and sensor-based data modeling.",
+      "National Finalists: A simulated satellite using Arduino, radio transmission, and sensor-based data modelling.",
     tags: ["Arduino", "Sensors", "Radio Transmission", "Python"],
     link: "https://www.youtube.com/watch?v=qEYImwNrZ7A",
   },
