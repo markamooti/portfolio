@@ -32,6 +32,13 @@ const projects = [
     tags: ["Arduino", "Sensors", "Radio Transmission", "Python"],
     link: "https://www.youtube.com/watch?v=qEYImwNrZ7A",
   },
+  {
+    title: "Weather App",
+    description:
+      "Learning project: A Basic weather app. Built with React, Next.js and Tailwind CSS.",
+    tags: ["React", "Next.js", "Tailwind CSS", "Weather API"],
+    link: "weather.markthenorman.com",
+  },
 ];
 
 export default function Projects() {
