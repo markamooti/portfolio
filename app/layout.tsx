@@ -4,6 +4,7 @@ import { Courier_Prime } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Github } from "lucide-react";
 
 const courierPrime = Courier_Prime({
   weight: ["400", "700"],
@@ -48,7 +49,7 @@ export default function RootLayout({
                 <AvatarFallback>MN</AvatarFallback>
               </Avatar>
             </Link>
-            <div className="space-x-4">
+            <div className="space-x-4 flex items-center">
               <Link href="/" className="text-white hover:text-green-400">
                 Home
               </Link>
@@ -57,6 +58,14 @@ export default function RootLayout({
                 className="text-white hover:text-green-400"
               >
                 Projects
+              </Link>
+              <Link
+                href="https://github.com/markamooti"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-green-400"
+              >
+                <Github size={20} />
               </Link>
             </div>
           </nav>
