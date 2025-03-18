@@ -29,18 +29,9 @@ export default function RootLayout({
       <body
         className={`${courierPrime.variable} font-sans bg-black min-h-screen flex flex-col`}
       >
-        <header className="p-4 border-b border-white/20">
+        <header className="p-4 border-b border-white/20 sticky top-0 z-10 bg-black/90 backdrop-blur-sm">
           <nav className="max-w-4xl mx-auto flex justify-between items-center">
-            {/* <Link
-              href="/"
-              className="text-white hover:text-green-400 text-xl font-bold"
-            >
-              MN
-            </Link> */}
-            <Link
-              href="/"
-              // className="text-white hover:text-green-400 text-xl font-bold"
-            >
+            <Link href="/">
               <Avatar>
                 <AvatarImage
                   src="https://github.com/markamooti.png"
@@ -70,7 +61,8 @@ export default function RootLayout({
             </div>
           </nav>
         </header>
-        <main className="flex-grow">{children}</main>
+        {/* <main className="flex-grow">{children}</main> */}
+        <main className="flex-grow py-8 md:py-12 lg:py-16">{children}</main>
         <footer className="p-4 border-t border-white/20 text-center text-white text-sm">
           © {new Date().getFullYear()} Mark Norman. All rights reserved.
         </footer>
