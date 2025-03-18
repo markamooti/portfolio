@@ -62,7 +62,7 @@ export default function RootLayout({
           </nav>
         </header>
         {/* <main className="flex-grow">{children}</main> */}
-        <main className="flex-grow py-8 md:py-12 lg:py-16">{children}</main>
+        <main className="flex-grow py-8">{children}</main>
         <footer className="p-4 border-t border-white/20 text-center text-white text-sm">
           © {new Date().getFullYear()} Mark Norman. All rights reserved.
         </footer>
