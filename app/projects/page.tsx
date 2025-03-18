@@ -63,7 +63,7 @@ function getDifficultyColor(difficulty: string): string {
 export default function Projects() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-black text-white p-4">
-      <Card className="w-full max-w-4xl bg-black border-white/10">
+      <Card className="w-full max-w-4xl bg-black border-white/10 card-hover-effect">
         <CardHeader>
           <CardTitle className="text-3xl font-bold text-center text-white">
             Projects

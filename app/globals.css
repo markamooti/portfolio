@@ -73,3 +73,20 @@
   }
 }
 
+@keyframes glowIn {
+  from {
+    box-shadow: 0 0 0 rgba(74, 222, 128, 0);
+  }
+  to {
+    box-shadow: 0 0 20px rgba(74, 222, 128, 0.6);
+  }
+}
+
+.card-hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover-effect:hover {
+  transform: translateY(-5px);
+  animation: glowIn 0.3s forwards;
+}

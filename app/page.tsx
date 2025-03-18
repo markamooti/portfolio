@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-black text-white p-4">
-      <Card className="w-full max-w-md bg-black border-white/10">
+      <Card className="w-full max-w-md bg-black border-white/10 card-hover-effect">
         <CardHeader>
           <CardTitle className="text-3xl font-bold text-center text-white">
             Mark Norman
