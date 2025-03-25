@@ -5,6 +5,14 @@ import { Separator } from "@/components/ui/separator";
 
 const projects = [
   {
+    title: "Library of Things",
+    description:
+      "University project: An investigation into Human Computer Interaction and design principles. A mobile prototype for a library of things.",
+    tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+    link: "https://libraryofthings.markthenorman.com",
+    difficulty: "Advanced",
+  },
+  {
     title: "Portfolio Website",
     description:
       "A personal portfolio website built with Next.js and Tailwind CSS.",
