@@ -49,7 +49,7 @@ const projects = [
     description:
       "Learning project: A Basic weather app. Built with React, Next.js and Tailwind CSS.",
     tags: ["React", "Next.js", "Tailwind CSS", "Weather API"],
-    link: "weather.markthenorman.com",
+    link: "https://weather.markthenorman.com",
     difficulty: "Beginner",
   },
 ];
