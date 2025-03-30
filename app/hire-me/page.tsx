@@ -114,7 +114,7 @@ export default function HireMe() {
 
             <p className="text-white">
               If you need something that looks good, works flawlessly, and gets
-              delivered without excuses — let’s build.
+              delivered without excuses — let's build.
             </p>
           </CardContent>
         </Card>
