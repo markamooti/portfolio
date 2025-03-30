@@ -106,15 +106,15 @@ export default function HireMe() {
             <p className="text-white">I can build things.</p>
 
             <p className="text-white">
-              I'm a web developer with real-world experience shipping clean,
-              responsive, and reliable websites. I use React, Next.js, and
-              Tailwind to turn ideas into fast, functional web experiences that
-              work across devices and scale with your needs.
+              I&apos;m a web developer with real-world experience shipping
+              clean, responsive, and reliable websites. I use React, Next.js,
+              and Tailwind to turn ideas into fast, functional web experiences
+              that work across devices and scale with your needs.
             </p>
 
             <p className="text-white">
               If you need something that looks good, works flawlessly, and gets
-              delivered without excuses — let's build.
+              delivered without excuses — let&apos;s build.
             </p>
           </CardContent>
         </Card>
