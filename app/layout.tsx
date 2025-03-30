@@ -51,6 +51,13 @@ export default function RootLayout({
                 Projects
               </Link>
               <Link
+                href="/hire-me"
+                className="text-white hover:text-green-400 transition-colors"
+              >
+                Hire Me!
+                {/* <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span> */}
+              </Link>
+              <Link
                 href="https://github.com/markamooti"
                 target="_blank"
                 rel="noopener noreferrer"

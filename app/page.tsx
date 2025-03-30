@@ -71,7 +71,7 @@ export default function Home() {
             >
               <Link href="/projects">View Projects</Link>
             </Button>
-            <Button
+            {/* <Button
               asChild
               variant="outline"
               className="text-blue-400 border-white hover:bg-white hover:text-black"
@@ -79,6 +79,13 @@ export default function Home() {
               <Link href="https://www.linkedin.com/in/markthenorman/">
                 LinkedIn
               </Link>
+            </Button> */}
+            <Button
+              asChild
+              variant="outline"
+              className="text-blue-400 border-white hover:bg-white hover:text-black transition-all duration-300"
+            >
+              <Link href="/hire-me">Hire Me!</Link>
             </Button>
           </div>
         </CardContent>
