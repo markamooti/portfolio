@@ -16,7 +16,7 @@ export default function Home() {
         <CardContent className="space-y-4">
           <Separator className="border-dashed border-white/20" />
           <p className="text-sm text-white">
-            Software engineer and computer science student at the{" "}
+            Software Engineer, Tech Consultant and Computer Science Student at the{" "}
             <Link
               href="https://www.nottingham.ac.uk/computerscience/"
               className="text-green-400 hover:text-red-400 hover:underline"
@@ -25,10 +25,10 @@ export default function Home() {
             </Link>
           </p>
           <Separator className="border-dashed border-white/20" />
-          <p className="text-sm italic text-white">
+          {/* <p className="text-sm italic text-white">
             This website is under construction!
           </p>
-          <Separator className="border-dashed border-white/20" />
+          <Separator className="border-dashed border-white/20" /> */}
           <div>
             <p className="text-sm font-semibold mb-2 text-white">
               I am interested in:
@@ -41,7 +41,7 @@ export default function Home() {
                 Artificial intelligence
               </Badge>
               <Badge variant="outline" className="text-white border-white">
-                Machine learning
+                Automation
               </Badge>
             </div>
           </div>

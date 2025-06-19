@@ -33,7 +33,7 @@ const skills = [
     level: "Intermediate",
   },
   {
-    name: "Full Stack Development",
+    name: "Automation",
     icon: <Layers className="mr-2 h-4 w-4" />,
     level: "Intermediate",
   },
@@ -42,18 +42,25 @@ const skills = [
 // Experience data
 const experiences = [
   {
-    title: "Freelance Web Developer",
+    title: "Placement Software Engineer",
+    company: "Avco Systems Ltd",
+    period: "2025 - Present",
+    description:
+      "Delivering production-grade software, automated workflows, and contributing to scalable system architecture in a real-world engineering environment.",
+  },
+  {
+    title: "Freelance Tech Consultant",
     company: "Self-employed",
     period: "2025 - Present",
     description:
-      "Designing and developing websites for small businesses and individuals.",
+      "Designing and developing tech solutions for small businesses and individuals.",
   },
   {
     title: "Computer Science Student",
     company: "University of Nottingham",
     period: "2023 - Present",
     description:
-      "Studying Computer Science with a focus on software engineering and artificial intelligence.",
+      "Studying Computer Science with a focus on software engineering and artificial intelligence. Runner-up in COMP2002 Software Engineering Group Project module.",
   },
 ];
 
@@ -106,10 +113,17 @@ export default function HireMe() {
             <p className="text-white">I can build things.</p>
 
             <p className="text-white">
-              I&apos;m a web developer with real-world experience shipping
-              clean, responsive, and reliable websites. I use React, Next.js,
-              and Tailwind to turn ideas into fast, functional web experiences
-              that work across devices and scale with your needs.
+              I&apos;m a Software Engineer and Tech Consultant with real-world experience delivering clean, responsive, and reliable systems. We can use React, Next.js, and Tailwind to build fast, functional web applications that work across devices and scale with your goals.
+            </p>
+            
+            <p className="text-white">
+              We can also use automation software such as n8n, combined with systems-oriented thinking, to streamline operations, reduce manual effort, and maximise efficiency.
+            </p>
+            
+            <p className="text-white">
+              Clients include:
+              <br/>
+              - First-Last Studios (Game Dev)
             </p>
 
             <p className="text-white">

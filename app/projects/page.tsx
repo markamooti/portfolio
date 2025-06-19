@@ -5,6 +5,14 @@ import { Separator } from "@/components/ui/separator";
 
 const projects = [
   {
+    title: "Digital Twin Pet Feeder App",
+    description:
+      "An Android app controlling an Internet pet feeder via Raspberry Pi. 2024-25 GRP Runner-up.",
+    tags: ["Android", "React Native", "Expo", "Raspberry Pi", "Azure"],
+    link: "https://www.linkedin.com/posts/activity-7328467635942141953-jgUq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEecxTUBJnaHY2Ecy87n6cXglXoUmfzkl20",
+    difficulty: "Advanced",
+  },
+  {
     title: "Library of Things",
     description:
       "University project: An investigation into Human Computer Interaction and design principles. A mobile prototype for a library of things.",
@@ -13,20 +21,20 @@ const projects = [
     difficulty: "Advanced",
   },
   {
+    title: "Drag Race Logger",
+    description:
+      "An automation tool for a game development studio: First-Last Studios. Logs races for administration purposes.",
+    tags: ["Automation", "API", "Databases", "Google Sheets"],
+    link: "#",
+    difficulty: "Intermediate",
+  },
+  {
     title: "Portfolio Website",
     description:
       "A personal portfolio website built with Next.js and Tailwind CSS.",
     tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
     link: "https://markthenorman.com",
     difficulty: "Intermediate",
-  },
-  {
-    title: "Digital Twin Pet Feeder App",
-    description:
-      "An Android app controlling an Internet pet feeder via Raspberry Pi.",
-    tags: ["Android", "React Native", "Expo", "Raspberry Pi", "Azure"],
-    link: "#",
-    difficulty: "Advanced",
   },
   {
     title: "The Dead Man's Clock",
