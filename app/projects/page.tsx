@@ -5,6 +5,14 @@ import { Separator } from "@/components/ui/separator";
 
 const projects = [
   {
+    title: "Roblox Gamepass Fetcher",
+    description:
+      "Serverless Cloudflare Worker: input a Roblox userId, enumerate public user-owned universes, and return all game pass IDs across them. Developed for First-Last Studios.",
+    tags: ["Cloudflare Workers", "TypeScript", "Roblox API", "REST"],
+    link: "#",
+    difficulty: "Intermediate",
+  },
+  {
     title: "Digital Twin Pet Feeder App",
     description:
       "An Android app controlling an Internet pet feeder via Raspberry Pi. 2024-25 GRP Runner-up.",
@@ -19,14 +27,6 @@ const projects = [
     tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
     link: "https://libraryofthings.markthenorman.com",
     difficulty: "Advanced",
-  },
-  {
-    title: "Drag Race Logger",
-    description:
-      "An automation tool for a game development studio: First-Last Studios. Logs races for administration purposes.",
-    tags: ["Automation", "API", "Databases", "Google Sheets"],
-    link: "#",
-    difficulty: "Intermediate",
   },
   {
     title: "Portfolio Website",
