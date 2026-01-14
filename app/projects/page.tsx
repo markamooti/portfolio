@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Roblox Gamepass Fetcher",
     description:
-      "Serverless Cloudflare Worker: input a Roblox userId, enumerate public user-owned universes, and return all game pass IDs across them. Developed for First-Last Studios.",
+      "Serverless Cloudflare Worker: input a Roblox userID, enumerate public user-owned universes, and return all game pass IDs across them. Developed for First-Last Studios.",
     tags: ["Cloudflare Workers", "TypeScript", "Roblox API", "REST"],
     link: "#",
     difficulty: "Intermediate",

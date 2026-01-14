@@ -16,7 +16,7 @@ export default function Home() {
         <CardContent className="space-y-4">
           <Separator className="border-dashed border-white/20" />
           <p className="text-sm text-white">
-            Software Engineer, Tech Consultant and Computer Science Student at the{" "}
+            Software Engineer and Computer Science Student at the{" "}
             <Link
               href="https://www.nottingham.ac.uk/computerscience/"
               className="text-green-400 hover:text-red-400 hover:underline"

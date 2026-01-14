@@ -46,15 +46,15 @@ const experiences = [
     company: "Avco Systems Ltd",
     period: "2025 - Present",
     description:
-      "Delivering production-grade software, automated workflows, and contributing to scalable system architecture in a real-world engineering environment.",
+      "Gaining industry experience through a full-time placement. Currently working on a web application.",
   },
-  {
-    title: "Freelance Tech Consultant",
-    company: "Self-employed",
-    period: "2025 - Present",
-    description:
-      "Designing and developing tech solutions for small businesses and individuals.",
-  },
+  // {
+  //   title: "Freelance Tech Consultant",
+  //   company: "Self-employed",
+  //   period: "2025 - Present",
+  //   description:
+  //     "Designing and developing tech solutions for small businesses and individuals.",
+  // },
   {
     title: "Computer Science Student",
     company: "University of Nottingham",
@@ -113,11 +113,11 @@ export default function HireMe() {
             <p className="text-white">I can build things.</p>
 
             <p className="text-white">
-              I&apos;m a Software Engineer and Tech Consultant with real-world experience delivering clean, responsive, and reliable systems. We can use React, Next.js, and Tailwind to build fast, functional web applications that work across devices and scale with your goals.
+              I&apos;m a Software Engineer with real-world experience delivering clean, responsive, and reliable systems. We can use React, Next.js, and Tailwind to build fast, functional web applications that work across devices and scale with your goals.
             </p>
             
             <p className="text-white">
-              We can also use automation software such as n8n, combined with systems-oriented thinking, to streamline operations, reduce manual effort, and maximise efficiency.
+              We can also use automation software such as n8n, combined with systems-oriented thinking, to streamline operations, reduce manual effort, and maximise efficiency in your business.
             </p>
             
             <p className="text-white">
@@ -127,8 +127,7 @@ export default function HireMe() {
             </p>
 
             <p className="text-white">
-              If you need something that looks good, works flawlessly, and gets
-              delivered without excuses — let&apos;s build.
+              If you need something that looks good and works, let&apos;s build.
             </p>
           </CardContent>
         </Card>
